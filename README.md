@@ -36,3 +36,19 @@
     ```
     
     执行上述命令之后会在原来的 `*.fnt` 文件同目录下生成一个新的 `*_fix.fnt` 文件
+    
+    
+##  参考文献
+
+* [fnt文件格式](http://www.angelcode.com/products/bmfont/doc/file_format.html)
+* [ASCII Code](https://zh.wikipedia.org/wiki/ASCII)
+* [TexturePacker使用介绍](https://www.codeandweb.com/texturepacker/documentation)
+* [TexturePacker输出数据结构说明](https://www.codeandweb.com/texturepacker/documentation/custom-exporter)
+
+## 可能有帮助的小项目
+
+* [XMLToFnt](shttps://github.com/aiekick/XMLToFnt)
+
+## 其他
+
+* [通过 Bitmap Font Generator 生成 fnt 与 png 文件供 cocos2d-x 中 LabelBMFont 使用达到以图片表现数字](https://blog.csdn.net/song_hui_xiang/article/details/44022419)
