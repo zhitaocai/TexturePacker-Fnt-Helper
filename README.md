@@ -23,7 +23,7 @@
 2. 下载本项目
    
     ```
-    git clone git@git.youchang0571.com:GameUtils/texturepacker-fnt-helper.git
+    git clone git@github.com:zhitaocai/TexturePacker-Fnt-Helper.git
     ```
 3. 进入本项目目录执行下面命令即可
 
