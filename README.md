@@ -1,6 +1,6 @@
 # TexturePacker-Fnt-Helper
 
-## 项目说明
+## 1. 项目说明
 
 将字体位图图片和正常游戏精灵图片，通过TexturePacker打包为一个图集的时候，一般会输出
 
@@ -17,7 +17,7 @@
 本工具为修正 `*.fnt` 文件得出一个新的修正偏移量的 `*_fix.fnt` 文件，通过这个新的 `*_fix.fnt` 文件就可以从新的图集图片中正确解析出位图文字
 
 
-## 使用说明
+## 2. 工具使用说明
 
 1. 安装 `Java 8+` 
 2. 下载本项目
@@ -38,7 +38,7 @@
     执行上述命令之后会在原来的 `*.fnt` 文件同目录下生成一个新的 `*_fix.fnt` 文件
     
 
-## 详细使用示例说明
+## 3. 详细使用示例说明
 
 1. 将位图和其他图片打包成图集
 
@@ -48,7 +48,7 @@
 
 ![](static/2.png)
 
-2. 使用上面工具生成新的 `.fix.fnt` 文件，其中参数二和参数三获取方式如下：
+2. 使用上面工具命令后，将会生成新的 `.fix.fnt` 文件，其中，命令中的参数二和参数三获取方式如下：
 
 ![](static/3_1.png)
 
@@ -56,7 +56,7 @@
 
 ![](static/3_2.png)
 
-3. 把这个3个文件拖入到场景，此时会提示报错，因为我们 .fix.fnt 文件说指向的原始位图文件还是 `红色字体.png`，此时我们要修改这个指向为我们新的图集文件名字 `atlas.png`（当然你可以是顺手修改位图文件名）
+3. 把这个3个文件拖入到场景，此时会提示报错，因为我们 `.fix.fnt` 文件所指向的原始位图文件还是 `红色字体.png`，此时我们要修改这个指向为我们新的图集文件名字 `atlas.png`（当然你可以是顺手修改位图文件名），最后效果如下：
 
 ![](static/4.png)
 
@@ -64,17 +64,45 @@
 
 ![](static/5.png)
     
-##  参考文献
+## 4. 支持我吧
+
+如果我的项目对你起到帮助，不妨支持一下我吧~
+
+🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏
+
+![](static/PAY.png)
+
+
+## 5.参考文献
 
 * [fnt文件格式](http://www.angelcode.com/products/bmfont/doc/file_format.html)
 * [ASCII Code](https://zh.wikipedia.org/wiki/ASCII)
 * [TexturePacker使用介绍](https://www.codeandweb.com/texturepacker/documentation)
 * [TexturePacker输出数据结构说明](https://www.codeandweb.com/texturepacker/documentation/custom-exporter)
-
-## 可能有帮助的小项目
-
+* [通过 Bitmap Font Generator 生成 fnt 与 png 文件供 cocos2d-x 中 LabelBMFont 使用达到以图片表现数字](https://blog.csdn.net/song_hui_xiang/article/details/44022419)
 * [XMLToFnt](shttps://github.com/aiekick/XMLToFnt)
 
-## 其他
 
-* [通过 Bitmap Font Generator 生成 fnt 与 png 文件供 cocos2d-x 中 LabelBMFont 使用达到以图片表现数字](https://blog.csdn.net/song_hui_xiang/article/details/44022419)
+## LICENSE
+
+    MIT License
+
+    Copyright (c) 2019 Zhitao Cai
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
